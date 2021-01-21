@@ -57,7 +57,7 @@ export default function App() {
   return (
     <div className="App">
       <div className="container">
-        <header className="header">🎬 goodmovies</header>
+        <header className="header"><span role="img" aria-label="movie">🎬</span> goodmovies</header>
         <div>Checkout my favorite movies. Select a genre to get started</div>
         <div className="categoryList">
           {Object.keys(movieDb).map(function (category) {
